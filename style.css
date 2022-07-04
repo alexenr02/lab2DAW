@@ -1,0 +1,71 @@
+
+* {
+    margin: 5;
+    padding: 5;
+    border-width: 20px;
+    box-sizing: border-box;
+    list-style: circle;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    text-align: center;
+    
+}
+
+.name
+{
+    margin: 0;
+    padding: 0;
+    border-width: 0px;
+}
+
+body 
+{
+    background-color: #AED6F1;
+}
+
+header
+{
+    float:none;
+    height:auto;
+    font-weight: 500;
+    grid-column: span 5;
+    height: 100%;
+}
+
+#profile-picture
+{
+    
+    width: 15%;
+    border-radius: 50%;
+    border: 8px solid #1B2631;
+    grid-column: span 2;
+    height: 100%;
+}
+
+.objective
+{
+    padding-top: 2%;
+   
+}
+
+.titles
+{
+    color:#1B2631;
+    font-family:Impact,sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    font-size: 150%;
+    
+    
+
+    width: 200px;
+    padding: 10px;
+    margin: 15px auto;
+    background: gray;
+}
+
+.interests
+{
+    margin: 15px auto;
+}
